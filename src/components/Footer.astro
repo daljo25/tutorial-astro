@@ -1,0 +1,22 @@
+---
+const username = "daljo25";
+import Social from "./Social.astro";
+---
+
+<footer>
+  
+  <Social platform="GitHub" username={username} />
+  <Social platform="Youtube" username={username} />
+  <Social platform="Facebook" username={username} />
+  <Social platform="Twitter" username={username} />
+  <Social platform="Instagram" username={username} />
+  
+</footer>
+
+<style>
+    footer {
+      display: flex;
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
