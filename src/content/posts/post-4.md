@@ -1,5 +1,4 @@
 ---
-layout: ../../layouts/MarkdownPostLayout.astro
 title: Mi cuarta publicacion en el blog
 author: Daljo25
 description: "Esta entrada aparecerá sola!"
